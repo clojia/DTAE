@@ -1,6 +1,6 @@
 # DTAE 
 
-This repository is the official implementation of "MMF: A loss extension for feature learning in openset recognition". 
+This repository is the official implementation of "Self-supervised Detransformation Autoencoder for Representation Learning in Open Set Recognition". 
 
 ## Requirements
 
