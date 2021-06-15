@@ -15,7 +15,7 @@ conda env create -f environment.yml
 The experiments will load the dataset from the `data/` directory, then split it into training, validation and test sets in customized ratio. The default ratio (also the ratio we use in the paper) is `0.75(training): 0.25(testing)`. To run the experiments in the paper, use this command:
 
 ```train
-python run_exp_opennet.py -n <network_type>[cnn, flat] -ds <dataset>[mnist, msadjmat, android] -m <loss_function_type>[ce, ii, triplet] -trc_file <known_classes_file>[mnist_trc_list] -o <output_file>  -p <pre-training model>[false, trans, recon] --transformation <transformation type>[none, rotation, ae-rotation]
+python run_exp_opennet.py -n <network_type>[cnn, flat] -ds <dataset>[mnist, cifar10, stl10] -m <loss_function_type>[ce, ii, triplet] -trc_file <known_classes_file>[mnist_trc_list] -o <output_file>  -p <pre-training model>[false, trans, recon] --transformation <transformation type>[none, rotation, ae-rotation]
 ```
 e.g. 
 ```
