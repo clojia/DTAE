@@ -1,4 +1,4 @@
-# MMF: A loss extension for feature learning in openset recognition
+# DTAE 
 
 This repository is the official implementation of "MMF: A loss extension for feature learning in openset recognition". 
 
